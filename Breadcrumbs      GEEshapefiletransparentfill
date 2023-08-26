@@ -1,0 +1,9 @@
+// Define the style for the shapefile
+var outlineStyle = {
+  color: "FF0000",
+  fillColor: "00000000", // Transparent fill color
+  width: 1 // Thin outline width
+};
+
+// Add shapefile to the map
+Map.addLayer(SHAPEFILENAME.style(outlineStyle), {}, 'SHAPEFILENAME Feature Collection');
